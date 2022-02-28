@@ -1,7 +1,7 @@
 import {
   getTokenListContainerPromise,
   useLocalStorageState,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import {
   Keypair,
   Commitment,

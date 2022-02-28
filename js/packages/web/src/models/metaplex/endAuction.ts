@@ -5,7 +5,7 @@ import {
   programIds,
   toPublicKey,
   SCHEMA,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import {
   PublicKey,
   SYSVAR_CLOCK_PUBKEY,

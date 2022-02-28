@@ -1,7 +1,7 @@
 import { InstructionsModal } from '../InstructionsModal';
 import React from 'react';
 import { LABELS } from '../../constants';
-import { ConnectButton } from '@oyster/common';
+import { ConnectButton } from '@colligence/metaplex-common';
 
 interface HowToBuyModalProps {
   buttonClassName: string;

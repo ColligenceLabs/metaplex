@@ -6,14 +6,14 @@ import {
   StringPublicKey,
   toPublicKey,
   WalletSigner,
-} from '@oyster/common';
-import { SafetyDepositConfig } from '@oyster/common/dist/lib/models/metaplex/index';
-import { approve } from '@oyster/common/dist/lib/models/account';
-import { createTokenAccount } from '@oyster/common/dist/lib/actions/account';
+} from '@colligence/metaplex-common';
+import { SafetyDepositConfig } from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
+import { approve } from '@colligence/metaplex-common/dist/lib/models/account';
+import { createTokenAccount } from '@colligence/metaplex-common/dist/lib/actions/account';
 import {
   addTokenToInactiveVault,
   VAULT_PREFIX,
-} from '@oyster/common/dist/lib/actions/vault';
+} from '@colligence/metaplex-common/dist/lib/actions/vault';
 
 import { AccountLayout } from '@solana/spl-token';
 import BN from 'bn.js';

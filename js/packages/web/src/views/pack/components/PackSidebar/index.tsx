@@ -1,4 +1,8 @@
-import { shortenAddress, royalty, pubkeyToString } from '@oyster/common';
+import {
+  shortenAddress,
+  royalty,
+  pubkeyToString,
+} from '@colligence/metaplex-common';
 import React from 'react';
 import { Skeleton, Divider } from 'antd';
 import { useWallet } from '@solana/wallet-adapter-react';

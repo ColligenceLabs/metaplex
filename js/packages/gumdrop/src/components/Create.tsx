@@ -24,7 +24,7 @@ import FilePresentIcon from '@mui/icons-material/FilePresent';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Keypair, PublicKey } from '@solana/web3.js';
 import { MintInfo } from '@solana/spl-token';
-import { notify, shortenAddress } from '@oyster/common';
+import { notify, shortenAddress } from '@colligence/metaplex-common';
 import BN from 'bn.js';
 
 import { useConnection, Connection } from '../contexts';

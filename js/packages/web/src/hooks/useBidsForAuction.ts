@@ -7,7 +7,7 @@ import {
   StringPublicKey,
   useMeta,
   USE_SPEED_RUN,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 
 export const useHighestBidForAuction = (
   auctionPubkey: StringPublicKey | string,

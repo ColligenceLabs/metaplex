@@ -1,4 +1,7 @@
-import { PackDistributionType, TokenAccount } from '@oyster/common';
+import {
+  PackDistributionType,
+  TokenAccount,
+} from '@colligence/metaplex-common';
 import { Keypair } from '@solana/web3.js';
 import BN from 'bn.js';
 

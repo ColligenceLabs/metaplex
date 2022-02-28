@@ -1,7 +1,7 @@
 import { Connection, Keypair, TransactionInstruction } from '@solana/web3.js';
 import { MintLayout } from '@solana/spl-token';
 import { WalletContextState } from '@solana/wallet-adapter-react';
-import { StringPublicKey } from '@oyster/common';
+import { StringPublicKey } from '@colligence/metaplex-common';
 
 import { createMintAndAccountWithOne } from '../../../actions/createMintAndAccountWithOne';
 

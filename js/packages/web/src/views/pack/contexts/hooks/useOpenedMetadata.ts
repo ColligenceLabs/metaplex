@@ -1,4 +1,4 @@
-import { StringPublicKey, useMeta } from '@oyster/common';
+import { StringPublicKey, useMeta } from '@colligence/metaplex-common';
 
 import { SafetyDepositDraft } from '../../../../actions/createAuctionManager';
 import { useUserArts } from '../../../../hooks';

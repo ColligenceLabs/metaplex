@@ -5,7 +5,7 @@ import {
   sendTransactionsInChunks,
   SequenceType,
   toPublicKey,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { BN } from 'bn.js';
 
 import {

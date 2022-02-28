@@ -11,8 +11,8 @@ import {
   StringPublicKey,
   useLocalStorage,
   pubkeyToString,
-} from '@oyster/common';
-import { WhitelistedCreator } from '@oyster/common/dist/lib/models/metaplex/index';
+} from '@colligence/metaplex-common';
+import { WhitelistedCreator } from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
 import { Cache } from 'three';
 import { useInView } from 'react-intersection-observer';
 import useWindowDimensions from '../utils/layout';

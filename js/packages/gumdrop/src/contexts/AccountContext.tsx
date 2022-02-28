@@ -9,7 +9,7 @@ import {
   chunks,
   StringPublicKey,
   WRAPPED_SOL_MINT,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 
 import { TokenAccount } from '../models';
 

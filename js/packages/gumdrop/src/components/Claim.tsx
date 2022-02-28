@@ -35,7 +35,7 @@ import {
   Token,
   TOKEN_PROGRAM_ID,
 } from '@solana/spl-token';
-import { notify } from '@oyster/common';
+import { notify } from '@colligence/metaplex-common';
 import { sha256 } from 'js-sha256';
 import BN from 'bn.js';
 import * as bs58 from 'bs58';

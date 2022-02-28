@@ -1,4 +1,4 @@
-import { addVoucherToPack } from '@oyster/common';
+import { addVoucherToPack } from '@colligence/metaplex-common';
 import { TransactionInstruction } from '@solana/web3.js';
 
 import { GetAddVoucherToPackParams } from './interface';

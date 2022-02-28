@@ -3,11 +3,11 @@ import {
   ParsedAccount,
   sleep,
   StringPublicKey,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import {
   getProvingProcessByPubkey,
   ProvingProcess,
-} from '@oyster/common/dist/lib/models/packs/accounts/ProvingProcess';
+} from '@colligence/metaplex-common/dist/lib/models/packs/accounts/ProvingProcess';
 import { Connection } from '@solana/web3.js';
 
 interface FetchProvingProcessWithRetryParams {

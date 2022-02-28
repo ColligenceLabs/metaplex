@@ -11,12 +11,12 @@ import {
   StringPublicKey,
   toPublicKey,
   WalletSigner,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import {
   updateExternalPriceAccount,
   ExternalPriceAccount,
   MAX_EXTERNAL_ACCOUNT_SIZE,
-} from '@oyster/common/dist/lib/actions/vault';
+} from '@colligence/metaplex-common/dist/lib/actions/vault';
 
 import BN from 'bn.js';
 import { QUOTE_MINT } from '../constants';

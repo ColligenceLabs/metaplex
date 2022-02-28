@@ -1,5 +1,5 @@
 import React from 'react';
-import { StoreProvider } from '@oyster/common';
+import { StoreProvider } from '@colligence/metaplex-common';
 import { FC } from 'react';
 export const Providers: FC = ({ children }) => {
   return (

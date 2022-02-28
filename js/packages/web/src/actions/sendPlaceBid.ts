@@ -18,10 +18,10 @@ import {
   programIds,
   pubkeyToString,
   WRAPPED_SOL_MINT,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
-import { approve } from '@oyster/common/dist/lib/models/account';
-import { TokenAccount } from '@oyster/common/dist/lib/models/account';
+import { approve } from '@colligence/metaplex-common/dist/lib/models/account';
+import { TokenAccount } from '@colligence/metaplex-common/dist/lib/models/account';
 
 import { AccountLayout, MintInfo } from '@solana/spl-token';
 import { AuctionView } from '../hooks';

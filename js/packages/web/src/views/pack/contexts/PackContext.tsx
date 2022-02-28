@@ -4,8 +4,8 @@ import {
   useUserAccounts,
   getSearchParams,
   ParsedAccount,
-} from '@oyster/common';
-import { ProvingProcess } from '@oyster/common/dist/lib/models/packs/accounts/ProvingProcess';
+} from '@colligence/metaplex-common';
+import { ProvingProcess } from '@colligence/metaplex-common/dist/lib/models/packs/accounts/ProvingProcess';
 import { useWallet } from '@solana/wallet-adapter-react';
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams, useLocation } from 'react-router';

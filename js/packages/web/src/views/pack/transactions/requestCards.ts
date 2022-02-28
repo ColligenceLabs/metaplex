@@ -4,7 +4,7 @@ import {
   requestCardToRedeem,
   cleanUp,
   chunks,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
 import { Keypair, TransactionInstruction } from '@solana/web3.js';

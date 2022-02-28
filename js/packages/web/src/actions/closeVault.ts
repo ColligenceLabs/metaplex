@@ -1,12 +1,16 @@
 import { Keypair, Connection, TransactionInstruction } from '@solana/web3.js';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
-import { StringPublicKey, toPublicKey, WalletSigner } from '@oyster/common';
-import { createTokenAccount } from '@oyster/common/dist/lib/actions/account';
+import {
+  StringPublicKey,
+  toPublicKey,
+  WalletSigner,
+} from '@colligence/metaplex-common';
+import { createTokenAccount } from '@colligence/metaplex-common/dist/lib/actions/account';
 import {
   activateVault,
   combineVault,
-} from '@oyster/common/dist/lib/actions/vault';
-import { approve } from '@oyster/common/dist/lib/models/account';
+} from '@colligence/metaplex-common/dist/lib/actions/vault';
+import { approve } from '@colligence/metaplex-common/dist/lib/models/account';
 
 import { AccountLayout } from '@solana/spl-token';
 import BN from 'bn.js';

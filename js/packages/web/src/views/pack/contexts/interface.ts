@@ -1,6 +1,10 @@
-import { ParsedAccount, StringPublicKey, TokenAccount } from '@oyster/common';
-import { PackSet } from '@oyster/common/dist/lib/models/packs/accounts/PackSet';
-import { ProvingProcess } from '@oyster/common/dist/lib/models/packs/accounts/ProvingProcess';
+import {
+  ParsedAccount,
+  StringPublicKey,
+  TokenAccount,
+} from '@colligence/metaplex-common';
+import { PackSet } from '@colligence/metaplex-common/dist/lib/models/packs/accounts/PackSet';
+import { ProvingProcess } from '@colligence/metaplex-common/dist/lib/models/packs/accounts/ProvingProcess';
 import { WalletContextState } from '@solana/wallet-adapter-react';
 import { Connection } from '@solana/web3.js';
 

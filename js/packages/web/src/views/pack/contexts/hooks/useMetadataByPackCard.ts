@@ -3,7 +3,7 @@ import {
   PackDistributionType,
   ParsedAccount,
   useMeta,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { BN } from 'bn.js';
 
 type MetadataWithProbability = ParsedAccount<Metadata> & {

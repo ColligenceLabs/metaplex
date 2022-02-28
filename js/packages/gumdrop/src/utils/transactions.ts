@@ -1,4 +1,4 @@
-import { sleep } from '@oyster/common';
+import { sleep } from '@colligence/metaplex-common';
 import {
   Blockhash,
   Commitment,

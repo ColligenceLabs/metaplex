@@ -1,4 +1,4 @@
-import { Metadata, ParsedAccount } from '@oyster/common';
+import { Metadata, ParsedAccount } from '@colligence/metaplex-common';
 import { SafetyDepositDraft } from '../../actions/createAuctionManager';
 import { ExtendedPack } from '../../types/packs';
 

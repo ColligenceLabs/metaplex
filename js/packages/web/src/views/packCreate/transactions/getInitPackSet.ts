@@ -1,4 +1,4 @@
-import { initPackSet } from '@oyster/common';
+import { initPackSet } from '@colligence/metaplex-common';
 import { TransactionInstruction } from '@solana/web3.js';
 import { BN } from 'bn.js';
 

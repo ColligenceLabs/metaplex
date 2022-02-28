@@ -1,4 +1,8 @@
-import { Metadata, ParsedAccount, shortenAddress } from '@oyster/common';
+import {
+  Metadata,
+  ParsedAccount,
+  shortenAddress,
+} from '@colligence/metaplex-common';
 import React from 'react';
 
 import { ArtContent } from '../../../../../../components/ArtContent';

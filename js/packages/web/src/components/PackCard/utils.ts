@@ -1,4 +1,4 @@
-import { ParsedAccount, WhitelistedCreator } from '@oyster/common';
+import { ParsedAccount, WhitelistedCreator } from '@colligence/metaplex-common';
 import { Artist } from '../../types';
 
 export const getCreator = (

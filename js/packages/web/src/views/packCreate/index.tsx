@@ -4,7 +4,7 @@ import {
   useConnection,
   useMeta,
   useUserAccounts,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { useHistory } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useMemo, useState } from 'react';
-import { useConnectionConfig } from '@oyster/common';
+import { useConnectionConfig } from '@colligence/metaplex-common';
 import { TokenInfo, TokenListContainer } from '@solana/spl-token-registry';
 import { WRAPPED_SOL_MINT } from '@project-serum/serum/lib/token-instructions';
 

@@ -5,7 +5,7 @@ import {
   fromLamports,
   PriceFloorType,
   useMint,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import {
   AuctionView,
   AuctionViewState,

@@ -1,4 +1,4 @@
-import { activate } from '@oyster/common';
+import { activate } from '@colligence/metaplex-common';
 import { TransactionInstruction } from '@solana/web3.js';
 
 import { GetActivateParams } from './interface';

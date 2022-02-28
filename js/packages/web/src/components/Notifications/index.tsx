@@ -15,7 +15,7 @@ import {
   VaultState,
   WalletSigner,
   WRAPPED_SOL_MINT,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Connection } from '@solana/web3.js';
 import { Badge, Popover, List } from 'antd';

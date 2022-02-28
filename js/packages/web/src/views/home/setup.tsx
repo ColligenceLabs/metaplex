@@ -3,7 +3,7 @@ import {
   useStore,
   useWalletModal,
   WhitelistedCreator,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Button } from 'antd';
 import React, { useCallback, useEffect, useState } from 'react';

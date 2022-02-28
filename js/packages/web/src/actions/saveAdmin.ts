@@ -4,10 +4,10 @@ import {
   sendTransactions,
   sendTransactionWithRetry,
   WalletSigner,
-} from '@oyster/common';
-import { WhitelistedCreator } from '@oyster/common/dist/lib/models/metaplex/index';
-import { setStore } from '@oyster/common/dist/lib/models/metaplex/setStore';
-import { setWhitelistedCreator } from '@oyster/common/dist/lib/models/metaplex/setWhitelistedCreator';
+} from '@colligence/metaplex-common';
+import { WhitelistedCreator } from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
+import { setStore } from '@colligence/metaplex-common/dist/lib/models/metaplex/setStore';
+import { setWhitelistedCreator } from '@colligence/metaplex-common/dist/lib/models/metaplex/setWhitelistedCreator';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
 
 // TODO if this becomes very slow move to batching txns like we do with settle.ts

@@ -1,6 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react';
 import { AuctionView } from '../../../hooks';
-import { BidStateType } from '@oyster/common';
+import { BidStateType } from '@colligence/metaplex-common';
 
 interface ActionButtonContentProps {
   isInstantSale: boolean;

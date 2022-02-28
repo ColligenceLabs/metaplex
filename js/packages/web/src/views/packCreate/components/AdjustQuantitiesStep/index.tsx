@@ -1,4 +1,4 @@
-import { PackDistributionType } from '@oyster/common';
+import { PackDistributionType } from '@colligence/metaplex-common';
 import React, { memo, ReactElement } from 'react';
 import { Input, Tooltip } from 'antd';
 import { ExclamationCircleOutlined } from '@ant-design/icons';

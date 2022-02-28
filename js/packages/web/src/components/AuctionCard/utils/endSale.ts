@@ -6,7 +6,7 @@ import {
   PrizeTrackingTicket,
   sendTransactions,
   TokenAccount,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 
 import { claimUnusedPrizes } from '../../../actions/claimUnusedPrizes';
 import { endAuction } from '../../../models/metaplex/endAuction';

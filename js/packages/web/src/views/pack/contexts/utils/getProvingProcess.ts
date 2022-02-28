@@ -5,8 +5,8 @@ import {
   ParsedAccount,
   StringPublicKey,
   toPublicKey,
-} from '@oyster/common';
-import { ProvingProcess } from '@oyster/common/dist/lib/models/packs/accounts/ProvingProcess';
+} from '@colligence/metaplex-common';
+import { ProvingProcess } from '@colligence/metaplex-common/dist/lib/models/packs/accounts/ProvingProcess';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
 
 import { requestCards } from '../../transactions/requestCards';

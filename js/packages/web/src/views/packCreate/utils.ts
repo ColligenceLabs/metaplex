@@ -1,4 +1,4 @@
-import { PackDistributionType } from '@oyster/common';
+import { PackDistributionType } from '@colligence/metaplex-common';
 import { Keypair } from '@solana/web3.js';
 import { BN } from 'bn.js';
 import { notification } from 'antd';

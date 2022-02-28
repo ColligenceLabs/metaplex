@@ -15,7 +15,7 @@ import {
 
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Keypair } from '@solana/web3.js';
-import { notify } from '@oyster/common';
+import { notify } from '@colligence/metaplex-common';
 
 import { useConnection, Connection } from '../contexts';
 import { closeGumdrop } from '../utils/claimant';

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Button, Card, Carousel, Col, List, Row, Skeleton } from 'antd';
 import { AuctionCard } from '../../components/AuctionCard';
 import { Connection } from '@solana/web3.js';
-import { AuctionViewItem } from '@oyster/common/dist/lib/models/metaplex/index';
+import { AuctionViewItem } from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
 import {
   AuctionView as Auction,
   useArt,
@@ -29,7 +29,7 @@ import {
   useMint,
   useMeta,
   BidStateType,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { MintInfo } from '@solana/spl-token';
 import { getHandleAndRegistryKey } from '@solana/spl-name-service';

@@ -2,7 +2,7 @@ import {
   findPackCardProgramAddress,
   StringPublicKey,
   toPublicKey,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { PackMetadataByPackCard } from '../hooks/useMetadataByPackCard';
 
 interface GetMetadataUserToReceiveParams {

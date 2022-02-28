@@ -1,5 +1,9 @@
-import { ParsedAccount, StringPublicKey, useConnection } from '@oyster/common';
-import { ProvingProcess } from '@oyster/common/dist/lib/models/packs/accounts/ProvingProcess';
+import {
+  ParsedAccount,
+  StringPublicKey,
+  useConnection,
+} from '@colligence/metaplex-common';
+import { ProvingProcess } from '@colligence/metaplex-common/dist/lib/models/packs/accounts/ProvingProcess';
 import { useState } from 'react';
 import useInterval from '../../../../hooks/useInterval';
 import { fetchProvingProcessWithRetry } from '../utils/fetchProvingProcessWithRetry';

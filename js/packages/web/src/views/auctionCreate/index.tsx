@@ -37,7 +37,7 @@ import {
   WRAPPED_SOL_MINT,
   shortenAddress,
   useNativeAccount,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from '@solana/web3.js';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { MintInfo, MintLayout } from '@solana/spl-token';
@@ -45,14 +45,14 @@ import { useHistory, useParams } from 'react-router-dom';
 import {
   WinningConfigType,
   AmountRange,
-} from '@oyster/common/dist/lib/models/metaplex/index';
+} from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
 import moment from 'moment';
 import {
   createAuctionManager,
   SafetyDepositDraft,
 } from '../../actions/createAuctionManager';
 import BN from 'bn.js';
-import { constants } from '@oyster/common';
+import { constants } from '@colligence/metaplex-common';
 import { DateTimePicker } from '../../components/DateTimePicker';
 import { AmountLabel } from '../../components/AmountLabel';
 import { useMeta } from '../../contexts';

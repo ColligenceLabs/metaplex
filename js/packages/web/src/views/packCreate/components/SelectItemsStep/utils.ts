@@ -1,4 +1,4 @@
-import { StringPublicKey } from '@oyster/common';
+import { StringPublicKey } from '@colligence/metaplex-common';
 
 import { SafetyDepositDraft } from '../../../../actions/createAuctionManager';
 

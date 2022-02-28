@@ -1,6 +1,6 @@
 import { WalletContextState } from '@solana/wallet-adapter-react';
 import { Connection, PublicKey } from '@solana/web3.js';
-import { TokenAccount } from '@oyster/common';
+import { TokenAccount } from '@colligence/metaplex-common';
 
 import { PackState, SelectedItem, SelectedVoucher } from '../interface';
 

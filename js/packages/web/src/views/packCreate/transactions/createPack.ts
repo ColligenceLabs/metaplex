@@ -2,10 +2,10 @@ import {
   MAX_PACK_SET_SIZE,
   sendTransactionsInChunks,
   SequenceType,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { Keypair, TransactionInstruction } from '@solana/web3.js';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
-import { programIds } from '@oyster/common';
+import { programIds } from '@colligence/metaplex-common';
 
 import { CreatePackParams } from './interface';
 import { getInitPackSet } from './getInitPackSet';

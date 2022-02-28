@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArtContent } from '../ArtContent';
-import { shortenAddress, StringPublicKey } from '@oyster/common';
+import { shortenAddress, StringPublicKey } from '@colligence/metaplex-common';
 import { useArt, useExtendedArt } from '../../hooks';
 import { MetaAvatar } from '../MetaAvatar';
 

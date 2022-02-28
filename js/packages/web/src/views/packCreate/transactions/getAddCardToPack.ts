@@ -1,4 +1,4 @@
-import { addCardToPack } from '@oyster/common';
+import { addCardToPack } from '@colligence/metaplex-common';
 import { TransactionInstruction } from '@solana/web3.js';
 
 import { GetAddCardToPackParams } from './interface';

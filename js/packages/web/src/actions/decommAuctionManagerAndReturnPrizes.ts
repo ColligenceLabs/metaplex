@@ -6,11 +6,11 @@ import {
   setAuctionAuthority,
   setVaultAuthority,
   WalletSigner,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
 import { AuctionView } from '../hooks';
-import { AuctionManagerStatus } from '@oyster/common/dist/lib/models/metaplex/index';
-import { decommissionAuctionManager } from '@oyster/common/dist/lib/models/metaplex/decommissionAuctionManager';
+import { AuctionManagerStatus } from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
+import { decommissionAuctionManager } from '@colligence/metaplex-common/dist/lib/models/metaplex/decommissionAuctionManager';
 import { unwindVault } from './unwindVault';
 
 export async function decommAuctionManagerAndReturnPrizes(

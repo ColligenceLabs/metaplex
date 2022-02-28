@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { shortenAddress, useMeta } from '@oyster/common';
+import { shortenAddress, useMeta } from '@colligence/metaplex-common';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 
 import { getCreator } from '../../../../../../components/PackCard/utils';

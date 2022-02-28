@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Statistic } from 'antd';
 import { useSolPrice, useAllSplPrices } from '../../contexts';
-import { formatAmount, formatUSD, WRAPPED_SOL_MINT } from '@oyster/common';
+import {
+  formatAmount,
+  formatUSD,
+  WRAPPED_SOL_MINT,
+} from '@colligence/metaplex-common';
 import { TokenCircle } from '../Custom';
 import { TokenInfo } from '@solana/spl-token-registry';
 

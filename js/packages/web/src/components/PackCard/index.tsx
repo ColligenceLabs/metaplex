@@ -1,6 +1,6 @@
 import React, { ReactElement, useMemo } from 'react';
 import { Button, Card } from 'antd';
-import { shortenAddress, useMeta } from '@oyster/common';
+import { shortenAddress, useMeta } from '@colligence/metaplex-common';
 
 import { MetaAvatar } from '../MetaAvatar';
 import { ArtContent } from '../ArtContent';

@@ -15,7 +15,7 @@ import { useMeta } from '../../contexts';
 import {
   Store,
   WhitelistedCreator,
-} from '@oyster/common/dist/lib/models/metaplex/index';
+} from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
 import {
   MasterEditionV1,
   notify,
@@ -27,7 +27,7 @@ import {
   useUserAccounts,
   useWalletModal,
   WalletSigner,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Connection } from '@solana/web3.js';
 import { saveAdmin } from '../../actions/saveAdmin';

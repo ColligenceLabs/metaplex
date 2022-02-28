@@ -1,8 +1,12 @@
 import { WalletContextState } from '@solana/wallet-adapter-react';
-import { MetaState, ParsedAccount, StringPublicKey } from '@oyster/common';
+import {
+  MetaState,
+  ParsedAccount,
+  StringPublicKey,
+} from '@colligence/metaplex-common';
 import { Connection, Keypair, TransactionInstruction } from '@solana/web3.js';
 import BN from 'bn.js';
-import { PackSet } from '@oyster/common/dist/lib/models/packs/accounts/PackSet';
+import { PackSet } from '@colligence/metaplex-common/dist/lib/models/packs/accounts/PackSet';
 
 import { PackMetadataByPackCard } from '../contexts/hooks/useMetadataByPackCard';
 

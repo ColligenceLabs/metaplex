@@ -5,7 +5,11 @@ import { Row, Col, Typography, Tabs, Input, List } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import { TokenInfo } from '@solana/spl-token-registry';
 import { TokenCircle } from '../Custom';
-import { MetaplexModal, shortenAddress, toPublicKey } from '@oyster/common';
+import {
+  MetaplexModal,
+  shortenAddress,
+  toPublicKey,
+} from '@colligence/metaplex-common';
 
 const { Search } = Input;
 

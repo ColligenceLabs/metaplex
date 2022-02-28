@@ -35,7 +35,7 @@ import {
   WRAPPED_SOL_MINT,
   getAssetCostToStore,
   LAMPORT_MULTIPLIER,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { Connection } from '@solana/web3.js';
 import { MintLayout } from '@solana/spl-token';

@@ -1,6 +1,6 @@
 import React, { ReactElement, useCallback, useState } from 'react';
 import { Modal } from 'antd';
-import { shortenAddress } from '@oyster/common';
+import { shortenAddress } from '@colligence/metaplex-common';
 
 import InitialStep from './components/InitialStep';
 import TransactionApprovalStep from './components/TransactionApprovalStep';

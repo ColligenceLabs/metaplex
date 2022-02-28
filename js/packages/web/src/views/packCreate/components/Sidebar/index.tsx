@@ -1,7 +1,7 @@
 import React from 'react-dom';
 import { memo } from 'react';
 import { Steps, Button, Spin } from 'antd';
-import { useMeta } from '@oyster/common';
+import { useMeta } from '@colligence/metaplex-common';
 import { useWallet } from '@solana/wallet-adapter-react';
 
 import useWindowDimensions from '../../../../utils/layout';

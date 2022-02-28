@@ -14,14 +14,14 @@ import {
   toPublicKey,
   pubkeyToString,
   WRAPPED_SOL_MINT,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { AccountLayout } from '@solana/spl-token';
 import { TransactionInstruction, Keypair, Connection } from '@solana/web3.js';
 import { AuctionView } from '../hooks';
 import {
   BidRedemptionTicket,
   PrizeTrackingTicket,
-} from '@oyster/common/dist/lib/models/metaplex/index';
+} from '@colligence/metaplex-common/dist/lib/models/metaplex/index';
 import { claimUnusedPrizes } from './claimUnusedPrizes';
 import { findAta, setupPlaceBid } from './sendPlaceBid';
 import { WalletNotConnectedError } from '@solana/wallet-adapter-base';

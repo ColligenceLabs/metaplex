@@ -1,7 +1,7 @@
 import React from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { ENDPOINTS, useColorMode, useConnectionConfig } from '../../contexts';
-import { notify, shortenAddress } from '@oyster/common';
+import { notify, shortenAddress } from '@colligence/metaplex-common';
 import { CopyOutlined } from '@ant-design/icons';
 import { ModalEnum, useModal, useWalletModal } from '../../contexts';
 import {

@@ -18,7 +18,7 @@
     "@mailchimp/mailchimp_transactional": "^1.0.46",
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "^5.0.2",
-    "@oyster/common": "0.0.2",
+    "@colligence/metaplex-common": "0.0.2",
     "@progress/kendo-react-common": "^4.9.0",
     "@progress/kendo-react-grid": "^4.9.0",
     "@progress/kendo-react-inputs": "^4.9.0",

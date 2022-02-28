@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Select } from 'antd';
 import { useWallet } from '@solana/wallet-adapter-react';
-import { contexts, useQuerySearch } from '@oyster/common';
+import { contexts, useQuerySearch } from '@colligence/metaplex-common';
 
 const { ENDPOINTS, useConnectionConfig } = contexts.Connection;
 

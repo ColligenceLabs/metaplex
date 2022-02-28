@@ -17,7 +17,7 @@ import {
   useWalletModal,
   useQuerySearch,
   WRAPPED_SOL_MINT,
-} from '@oyster/common';
+} from '@colligence/metaplex-common';
 import { useMeta, useSolPrice } from '../../contexts';
 import { useTokenList } from '../../contexts/tokenList';
 import { TokenCircle } from '../Custom';

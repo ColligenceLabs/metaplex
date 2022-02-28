@@ -1,4 +1,4 @@
-import { programIds } from '@oyster/common';
+import { programIds } from '@colligence/metaplex-common';
 import { AccountLayout } from '@solana/spl-token';
 import { TransactionInstruction } from '@solana/web3.js';
 
