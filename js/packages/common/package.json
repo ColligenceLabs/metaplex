@@ -1,6 +1,6 @@
 {
   "name": "@colligence/metaplex-common",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Oyster common utilities",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -26,7 +26,7 @@
     "watch": "tsc --watch",
     "test": "jest test --passWithNoTests",
     "clean": "rm -rf dist",
-    "prepare": "npx run-s clean build",
+    "prepare": "run-s clean build",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\""
   },
   "dependencies": {

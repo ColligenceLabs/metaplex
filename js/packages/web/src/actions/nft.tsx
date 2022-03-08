@@ -10,14 +10,15 @@ import {
   ENDPOINT_NAME,
   findProgramAddress,
   getAssetCostToStore,
-  notify,
+  // notify,
   programIds,
   sendTransactionWithRetry,
   StringPublicKey,
   toPublicKey,
   WalletSigner,
 } from '@colligence/metaplex-common';
-import React, { Dispatch, SetStateAction } from 'react';
+// import React, { Dispatch, SetStateAction } from 'react';
+import { Dispatch, SetStateAction } from 'react';
 import { MintLayout, Token } from '@solana/spl-token';
 import {
   Connection,
@@ -341,15 +342,15 @@ export const mintNFT = async (
       updateSigners,
     );
 
-    notify({
-      message: 'Art created on Solana',
-      description: (
-        <a href={arweaveLink} target="_blank" rel="noopener noreferrer">
-          Arweave Link
-        </a>
-      ),
-      type: 'success',
-    });
+    // notify({
+    //   message: 'Art created on Solana',
+    //   description: (
+    //     <a href={arweaveLink} target="_blank" rel="noopener noreferrer">
+    //       Arweave Link
+    //     </a>
+    //   ),
+    //   type: 'success',
+    // });
 
     // TODO: refund funds
 
