@@ -19,7 +19,7 @@ import React, {
   ReactNode,
   useCallback,
   useContext,
-  useEffect,
+  // useEffect,
   useMemo,
   useState,
 } from 'react';
@@ -158,37 +158,37 @@ export const WalletModal: FC = () => {
 export const WalletModalProvider: FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const { publicKey } = useWallet();
-  const [connected, setConnected] = useState(!!publicKey);
+  // const { publicKey } = useWallet();
+  // const [connected, setConnected] = useState(!!publicKey);
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    if (publicKey) {
-      const base58 = publicKey.toBase58();
-      const keyToDisplay =
-        base58.length > 20
-          ? `${base58.substring(0, 7)}.....${base58.substring(
-              base58.length - 7,
-              base58.length,
-            )}`
-          : base58;
+  // useEffect(() => {
+  //   if (publicKey) {
+  //     const base58 = publicKey.toBase58();
+  //     const keyToDisplay =
+  //       base58.length > 20
+  //         ? `${base58.substring(0, 7)}.....${base58.substring(
+  //             base58.length - 7,
+  //             base58.length,
+  //           )}`
+  //         : base58;
+  //
+  //     notify({
+  //       message: 'Wallet update',
+  //       description: 'Connected to wallet ' + keyToDisplay,
+  //     });
+  //   }
+  // }, [publicKey]);
 
-      notify({
-        message: 'Wallet update',
-        description: 'Connected to wallet ' + keyToDisplay,
-      });
-    }
-  }, [publicKey]);
-
-  useEffect(() => {
-    if (!publicKey && connected) {
-      notify({
-        message: 'Wallet update',
-        description: 'Disconnected from wallet',
-      });
-    }
-    setConnected(!!publicKey);
-  }, [publicKey, connected, setConnected]);
+  // useEffect(() => {
+  //   if (!publicKey && connected) {
+  //     notify({
+  //       message: 'Wallet update',
+  //       description: 'Disconnected from wallet',
+  //     });
+  //   }
+  //   setConnected(!!publicKey);
+  // }, [publicKey, connected, setConnected]);
 
   return (
     <WalletModalContext.Provider
