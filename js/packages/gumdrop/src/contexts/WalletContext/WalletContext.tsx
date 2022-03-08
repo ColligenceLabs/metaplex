@@ -1,4 +1,5 @@
-import { WalletAdapter, WalletError } from '@solana/wallet-adapter-base';
+// import { WalletAdapter, WalletError } from '@solana/wallet-adapter-base';
+import { WalletAdapter } from '@solana/wallet-adapter-base';
 import {
   useWallet,
   WalletProvider as BaseWalletProvider,
@@ -188,10 +189,10 @@ export const WalletProvider: FC<{ children: ReactNode }> = ({ children }) => {
 
   const onError = useCallback((error: WalletError) => {
     console.error(error);
-    notify({
-      message: 'Wallet error',
-      description: error.message,
-    });
+    // notify({
+    //   message: 'Wallet error',
+    //   description: error.message,
+    // });
   }, []);
 
   return (

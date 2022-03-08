@@ -187,10 +187,10 @@ export const WalletProvider: FC<{ children: ReactNode }> = ({ children }) => {
 
   const onError = useCallback((error: WalletError) => {
     console.error(error);
-    notify({
-      message: 'Wallet error',
-      description: error.message,
-    });
+    // notify({
+    //   message: 'Wallet error',
+    //   description: error.message,
+    // });
   }, []);
 
   return (
