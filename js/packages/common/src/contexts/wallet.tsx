@@ -198,7 +198,7 @@ export const WalletModalProvider: FC<{ children: ReactNode }> = ({
       }}
     >
       {children}
-      <WalletModal />
+      {/* <WalletModal /> */}
     </WalletModalContext.Provider>
   );
 };
